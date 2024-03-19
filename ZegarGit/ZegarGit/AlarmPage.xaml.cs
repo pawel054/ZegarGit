@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace ZegarGit
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class StoperPage : ContentPage
+    public partial class AlarmPage : ContentPage
     {
-        public StoperPage()
+        public AlarmPage()
         {
             InitializeComponent();
-        }
-
-        private void StoperButton(object sender, EventArgs e)
-        {
-
         }
     }
 }
