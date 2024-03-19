@@ -27,7 +27,7 @@ namespace ZegarGit
 
         private void SaveButtonClicked(object sender, EventArgs e)
         {
-
+            FileClass.WriteToFile(labelTime.Text);
         }
 
         private void ShowButtonClicked(object sender, EventArgs e)
