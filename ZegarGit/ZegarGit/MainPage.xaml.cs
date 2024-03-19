@@ -32,7 +32,7 @@ namespace ZegarGit
 
         private void ShowButtonClicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new SavedTimes());
         }
     }
 }
