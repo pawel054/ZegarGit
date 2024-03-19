@@ -13,6 +13,16 @@ namespace ZegarGit
         public MainPage()
         {
             InitializeComponent();
+
+            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+            {
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    labelTime.Text = DateTime.Now.ToString("HH:mm:ss");
+                });
+                return true;
+            });
+
         }
     }
 }
