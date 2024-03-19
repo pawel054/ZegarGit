@@ -18,7 +18,7 @@ namespace ZegarGit
             {
                 Device.BeginInvokeOnMainThread(() =>
                 {
-                    labelTime.Text = DateTime.Now.ToString("HH:mm:ss");
+                    labelTime.Text = DateTime.Now.AddHours(1).ToString("HH:mm:ss");
                 });
                 return true;
             });

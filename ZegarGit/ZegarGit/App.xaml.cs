@@ -10,7 +10,7 @@ namespace ZegarGit
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new TabbedPage1());
         }
 
         protected override void OnStart()
