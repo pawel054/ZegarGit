@@ -24,5 +24,15 @@ namespace ZegarGit
             });
 
         }
+
+        private void SaveButtonClicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ShowButtonClicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
