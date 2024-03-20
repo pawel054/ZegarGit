@@ -11,8 +11,8 @@
     
     <ContentPage.Content>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-            <Label x:Name="labelTime" Text="1:12:30" HorizontalTextAlignment="Center" FontSize="35" TextColor="White" FontAttributes="Bold"/>
-            <Button Text="Start" CornerRadius="15" BackgroundColor="RoyalBlue" WidthRequest="200" HorizontalOptions="Center" TextColor="White" Margin="0,10,0,10" Clicked="StoperButton"/>
+            <Label x:Name="labelTime" Text="00:00" HorizontalTextAlignment="Center" FontSize="35" TextColor="White" FontAttributes="Bold"/>
+            <Button x:Name="startButton" Text="Start" CornerRadius="15" BackgroundColor="RoyalBlue" WidthRequest="200" HorizontalOptions="Center" TextColor="White" Margin="0,10,0,10" Clicked="StoperButton"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

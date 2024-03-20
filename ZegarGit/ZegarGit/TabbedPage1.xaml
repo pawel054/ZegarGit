@@ -6,4 +6,5 @@
             NavigationPage.HasNavigationBar="False">
     <local:MainPage Title="Zegar"></local:MainPage>
     <local:StoperPage Title="Stoper"></local:StoperPage>
+    <local:AlarmPage Title="Alarm"></local:AlarmPage>
 </TabbedPage>
